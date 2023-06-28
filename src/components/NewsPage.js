@@ -13,10 +13,9 @@ const NewsPage = () => {
           <li className="mx-6 underline hover:text-blue-400" key={data.id}>
             <NavLink
               className={({ isPending }) =>
-                `${isPending ? "bg-yellow-200" : ""}`
+                `${isPending ? "bg-yellow-200" : ""} `
               }
               to={`/news/${data.id}`}
-              key={data.id}
             >
               {data.title}
             </NavLink>

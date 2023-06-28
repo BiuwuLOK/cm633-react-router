@@ -6,9 +6,10 @@ const ContactPage = () => {
   const data = useActionData();
 
   return (
-    <div className="p-6">
+    <div className="p-4">
+      <h1 className="text-6xl">Contact NOW!</h1>
       {!data && (
-        <Form action="/contact" method="POST" className="grid gap-4">
+        <Form action="/contact" method="POST" className="grid gap-4 mb-4">
           <label htmlFor="fullname">Name</label>
           <input
             type="text"
