@@ -26,6 +26,9 @@ const ContactPage = () => {
           <p>Get your contact ID: {data.id}</p>
         </>
       )}
+      <a href="/" className="text-blue-500">
+        Back
+      </a>
     </div>
   );
 };
